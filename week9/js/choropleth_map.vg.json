@@ -5,7 +5,7 @@
    "height": 600,
    "projection": {"type": "mercator"},
    "data": {
-   "url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/world.topo.json", "format": {"type": "topojson", "feature": "world.geo"}
+   "url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/week9/js/world.topo.json", "format": {"type": "topojson", "feature": "world.geo"}
    },
    "layer": [
       {
