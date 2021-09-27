@@ -24,7 +24,7 @@
       "lookup": "properties.name_long",
       "from": {
       "data": {
-      "url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/Trade_Balance.csv"
+      "url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/data/Trade_Balance.csv"
       },
       "key": "Countries",
       "fields": ["Balance2020"]
