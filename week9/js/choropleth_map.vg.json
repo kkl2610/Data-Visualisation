@@ -1,6 +1,6 @@
 {
    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-   "title": "Trade Balance of Beauty Products 2020",
+   "title": "Trade Balance of Beauty Products 2020 (thousand USD)",
    "width": 800,
    "height": 600,
    "projection": {"type": "mercator"},
