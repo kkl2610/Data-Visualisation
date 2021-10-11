@@ -28,7 +28,7 @@
     "layer": [
         {
             "data": {
-                "url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/week%2010/js/world.topo.json",
+                "url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/js/world.topo.json",
                 "format": {
                     "type": "topojson",
                     "feature": "world.geo"
@@ -54,14 +54,14 @@
         },
         {
             "data": {
-                "url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/week%2010/data/Trade_long.csv"
+                "url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/data/Trade_long.csv"
             },
             "transform": [
                 {
                     "lookup": "Country",
                     "from": {
                         "data": {
-                            "url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/week%2010/js/world.topo.json",
+                            "url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/js/world.topo.json",
                             "format": {
                                 "type": "topojson",
                                 "feature": "world.geo"
