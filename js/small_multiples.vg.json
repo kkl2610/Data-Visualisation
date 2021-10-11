@@ -11,7 +11,7 @@
         "height": 300,
         "layer": [{
                 "data": {
-                    "url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/week%2010/js/world.topo.json",
+                    "url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/js/world.topo.json",
                     "format": { "type": "topojson", "feature": "world.geo" }
                 },
                 "transform": [{
@@ -28,13 +28,13 @@
             },
             {
                 "data": {
-                    "url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/week%2010/data/Trade_Balance.csv"
+                    "url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/data/Trade_Balance.csv"
                 },
                 "transform": [{
                     "lookup": "Countries",
                     "from": {
                         "data": {
-                            "url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/week%2010/js/world.topo.json",
+                            "url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/js/world.topo.json",
                             "format": {
                                 "type": "topojson",
                                 "feature": "world.geo"
