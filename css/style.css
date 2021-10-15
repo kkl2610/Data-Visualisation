@@ -17,3 +17,11 @@
     background-image: linear-gradient(to right, transparent, #DDD, transparent);
     padding-top: 5px;
 }
+
+.positive {
+    color: "#2166ac";
+}
+
+.negative {
+    color: "#b2182b";
+}
