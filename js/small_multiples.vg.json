@@ -5,7 +5,7 @@
     "columns": 2,
     "spec": {
         "projection": {
-            "type": "equirectangular"
+            "type": "equalEarth"
         },
         "width": 400,
         "height": 300,
