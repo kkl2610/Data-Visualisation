@@ -1,0 +1,327 @@
+"Year","Continent ID","Continent","Country ID","Country","ISO 3","Trade Value","share"
+2019,"as","Asia","asare","United Arab Emirates","are",755874479,0.013336519688315078
+2019,"as","Asia","aschn","China","chn",3088588165,0.05449451994478496
+2019,"as","Asia","ashkg","Hong Kong","hkg",279923175,0.004938916497805408
+2019,"as","Asia","asjpn","Japan","jpn",4487980715,0.0791851621258083
+2019,"as","Asia","askor","South Korea","kor",5405363377,0.09537130449916642
+2019,"as","Asia","assgp","Singapore","sgp",2556327950,0.04510341198457783
+2019,"as","Asia","astha","Thailand","tha",907179615,0.01600612156173299
+2019,"as","Asia","asxxb","Chinese Taipei",,514667603,0.009080706930902252
+2019,"eu","Europe","eubel","Belgium","bel",1349338224,0.02380749223651471
+2019,"eu","Europe","euche","Switzerland","che",1420696359,0.025066522933791295
+2019,"eu","Europe","eucze","Czechia","cze",616392479,0.010875523199021565
+2019,"eu","Europe","eudeu","Germany","deu",3772730816,0.06656541556061323
+2019,"eu","Europe","euesp","Spain","esp",1183662228,0.02088433337360619
+2019,"eu","Europe","eufra","France","fra",10052717392,0.1773684218004606
+2019,"eu","Europe","eugbr","United Kingdom","gbr",2265330675,0.03996910596538554
+2019,"eu","Europe","euirl","Ireland","irl",156703663,0.002764852558053612
+2019,"eu","Europe","euita","Italy","ita",2403286375,0.04240317267921262
+2019,"eu","Europe","eunld","Netherlands","nld",973242371,0.017171721499997815
+2019,"eu","Europe","eupol","Poland","pol",1655493225,0.029209238573967945
+2019,"eu","Europe","euswe","Sweden","swe",236173359,0.004167002246624344
+2019,"na","North America","nacan","Canada","can",1297965029,0.022901072393532885
+2019,"na","North America","namex","Mexico","mex",338027047,0.0059640912515826665
+2019,"na","North America","nausa","United States","usa",6149306477,0.10849730898242688
+2018,"as","Asia","asare","United Arab Emirates","are",603399269,0.011200520843070988
+2018,"as","Asia","aschn","China","chn",2967048914,0.05507546149126697
+2018,"as","Asia","ashkg","Hong Kong","hkg",255230497,0.004737683070404693
+2018,"as","Asia","asjpn","Japan","jpn",3950825127,0.07333668013159639
+2018,"as","Asia","askor","South Korea","kor",4998199437,0.09277843021706442
+2018,"as","Asia","assgp","Singapore","sgp",2329846285,0.043247470152792
+2018,"as","Asia","astha","Thailand","tha",612535568,0.011370112210902143
+2018,"as","Asia","asxxb","Chinese Taipei",,593241421,0.011011967104129109
+2018,"eu","Europe","eubel","Belgium","bel",1275879849,0.023683354581556123
+2018,"eu","Europe","euche","Switzerland","che",1346156286,0.024987851848680364
+2018,"eu","Europe","eucze","Czechia","cze",415873967,0.007719606692917814
+2018,"eu","Europe","eudeu","Germany","deu",3838283702,0.07124764449436327
+2018,"eu","Europe","euesp","Spain","esp",1098250871,0.02038613966493945
+2018,"eu","Europe","eufra","France","fra",9624534678,0.1786541794199597
+2018,"eu","Europe","eugbr","United Kingdom","gbr",2222994877,0.041264054719758914
+2018,"eu","Europe","euirl","Ireland","irl",234129029,0.004345989801460087
+2018,"eu","Europe","euita","Italy","ita",2443116327,0.045350030648795066
+2018,"eu","Europe","eunld","Netherlands","nld",983266665,0.01825176022152158
+2018,"eu","Europe","eupol","Poland","pol",1646359459,0.03056033439728376
+2018,"eu","Europe","euswe","Sweden","swe",233539256,0.004335042216471912
+2018,"na","North America","nacan","Canada","can",1317287733,0.02445198306958544
+2018,"na","North America","namex","Mexico","mex",317357482,0.005890907189424398
+2018,"na","North America","nausa","United States","usa",5870705290,0.10897420719973082
+2017,"as","Asia","asare","United Arab Emirates","are",424670780,0.009178935486048544
+2017,"as","Asia","aschn","China","chn",2558697091,0.05530428895208915
+2017,"as","Asia","ashkg","Hong Kong","hkg",515018687,0.011131736688082067
+2017,"as","Asia","asjpn","Japan","jpn",2680790989,0.05794325557226064
+2017,"as","Asia","askor","South Korea","kor",3925275007.9999995,0.08484182986037014
+2017,"as","Asia","assgp","Singapore","sgp",1677980848,0.036268278101490824
+2017,"as","Asia","astha","Thailand","tha",412184901,0.008909062720543915
+2017,"as","Asia","asxxb","Chinese Taipei",,539625458,0.011663593303055601
+2017,"eu","Europe","eubel","Belgium","bel",1190853387,0.025739389021809788
+2017,"eu","Europe","euche","Switzerland","che",1028664661,0.022233803230109206
+2017,"eu","Europe","eucze","Czechia","cze",273621356,0.005914117223532831
+2017,"eu","Europe","eudeu","Germany","deu",3469330374,0.07498693383786534
+2017,"eu","Europe","euesp","Spain","esp",907246128,0.019609434110063658
+2017,"eu","Europe","eufra","France","fra",8589528274,0.18565611197133908
+2017,"eu","Europe","eugbr","United Kingdom","gbr",2098946219,0.045367123993994875
+2017,"eu","Europe","euirl","Ireland","irl",362922943,0.007844303015629833
+2017,"eu","Europe","euita","Italy","ita",2146076794,0.04638581547859707
+2017,"eu","Europe","eunld","Netherlands","nld",861061583,0.018611190343427522
+2017,"eu","Europe","eupol","Poland","pol",1382191274,0.029875011728909738
+2017,"eu","Europe","euswe","Sweden","swe",204243847,0.004414575203491442
+2017,"na","North America","nacan","Canada","can",1131125683,0.024448420187679492
+2017,"na","North America","namex","Mexico","mex",308416659,0.006666191198235097
+2017,"na","North America","nausa","United States","usa",5309552898,0.11476194220498073
+2016,"as","Asia","asare","United Arab Emirates","are",202323790,0.005054178120171741
+2016,"as","Asia","aschn","China","chn",2082637932,0.0520256321224218
+2016,"as","Asia","ashkg","Hong Kong","hkg",157981009,0.003946466992786439
+2016,"as","Asia","asjpn","Japan","jpn",2035319778,0.05084359426798206
+2016,"as","Asia","askor","South Korea","kor",3425254127,0.08556504632851805
+2016,"as","Asia","assgp","Singapore","sgp",1201763487,0.03002082316477314
+2016,"as","Asia","astha","Thailand","tha",391329400,0.009775659556693433
+2016,"as","Asia","asxxb","Chinese Taipei",,483370433,0.012074903630495161
+2016,"eu","Europe","eubel","Belgium","bel",1155699288,0.028870109910988023
+2016,"eu","Europe","euche","Switzerland","che",821492629,0.020521413084314807
+2016,"eu","Europe","eucze","Czechia","cze",291318086,0.007277312748399532
+2016,"eu","Europe","eudeu","Germany","deu",3224383537,0.08054717007697103
+2016,"eu","Europe","euesp","Spain","esp",730181142,0.0182403935377961
+2016,"eu","Europe","eufra","France","fra",7307359466,0.18254252912762783
+2016,"eu","Europe","eugbr","United Kingdom","gbr",1935917967,0.048360473235790805
+2016,"eu","Europe","euirl","Ireland","irl",360843638,0.009014105656990571
+2016,"eu","Europe","euita","Italy","ita",1931316731,0.04824553140756118
+2016,"eu","Europe","eunld","Netherlands","nld",726450231,0.018147192986617676
+2016,"eu","Europe","eupol","Poland","pol",1263099192,0.03155302843928045
+2016,"eu","Europe","euswe","Sweden","swe",192852751,0.004817585487693409
+2016,"na","North America","nacan","Canada","can",1105702677,0.027621162481726552
+2016,"na","North America","namex","Mexico","mex",329162648,0.008222694194782495
+2016,"na","North America","nausa","United States","usa",4802421246,0.1199675647899889
+2015,"as","Asia","asare","United Arab Emirates","are",214001533,0.005892755214780018
+2015,"as","Asia","aschn","China","chn",1927380133,0.05307242041859184
+2015,"as","Asia","ashkg","Hong Kong","hkg",516243123,0.014215292350978495
+2015,"as","Asia","asjpn","Japan","jpn",1450814476,0.039949688440443734
+2015,"as","Asia","askor","South Korea","kor",2407982586,0.06630630978120597
+2015,"as","Asia","assgp","Singapore","sgp",1034010428,0.028472554641624546
+2015,"as","Asia","astha","Thailand","tha",401993799,0.011069318159353934
+2015,"as","Asia","asxxb","Chinese Taipei",,452045661,0.012447548336844999
+2015,"eu","Europe","eubel","Belgium","bel",1039305125,0.02861834964094088
+2015,"eu","Europe","euche","Switzerland","che",726068803,0.019993061101890964
+2015,"eu","Europe","eucze","Czechia","cze",199707141,0.0054991442353665675
+2015,"eu","Europe","eudeu","Germany","deu",2927681356,0.08061675697334016
+2015,"eu","Europe","euesp","Spain","esp",666082517,0.018341276207238896
+2015,"eu","Europe","eufra","France","fra",6937450451,0.19102992744639935
+2015,"eu","Europe","eugbr","United Kingdom","gbr",1883900152,0.05187515383276655
+2015,"eu","Europe","euirl","Ireland","irl",363815723,0.010018045052636199
+2015,"eu","Europe","euita","Italy","ita",1599172927,0.044034892987959456
+2015,"eu","Europe","eunld","Netherlands","nld",559368357,0.01540279060848915
+2015,"eu","Europe","eupol","Poland","pol",1099538473,0.030276937645217744
+2015,"eu","Europe","euswe","Sweden","swe",287179739,0.007907793373477443
+2015,"na","North America","nacan","Canada","can",1080879444,0.029763141837771442
+2015,"na","North America","namex","Mexico","mex",264670079,0.007287966428836233
+2015,"na","North America","nausa","United States","usa",4639561447,0.12775515917029237
+2014,"as","Asia","asare","United Arab Emirates","are",199112545,0.005481387081814933
+2014,"as","Asia","aschn","China","chn",1734091791,0.047737968202198014
+2014,"as","Asia","ashkg","Hong Kong","hkg",129991405,0.0035785450289632587
+2014,"as","Asia","asjpn","Japan","jpn",1255594220,0.034565365720725924
+2014,"as","Asia","askor","South Korea","kor",1551380049,0.04270808029486047
+2014,"as","Asia","assgp","Singapore","sgp",986583157,0.027159736077483187
+2014,"as","Asia","astha","Thailand","tha",453143345,0.012474623723449508
+2014,"as","Asia","asxxb","Chinese Taipei",,406936220,0.01120258364148075
+2014,"eu","Europe","eubel","Belgium","bel",1012895365,0.027884087207770972
+2014,"eu","Europe","euche","Switzerland","che",713902598,0.019653088550253422
+2014,"eu","Europe","eucze","Czechia","cze",203401623,0.005599461494163471
+2014,"eu","Europe","eudeu","Germany","deu",3134871591,0.08630016075609916
+2014,"eu","Europe","euesp","Spain","esp",770127012,0.021200895478150482
+2014,"eu","Europe","eufra","France","fra",7782520129,0.21424569355519657
+2014,"eu","Europe","eugbr","United Kingdom","gbr",2112206688,0.058147127061864964
+2014,"eu","Europe","euirl","Ireland","irl",679423640,0.018703914227883933
+2014,"eu","Europe","euita","Italy","ita",1612158921,0.044381267304890816
+2014,"eu","Europe","eunld","Netherlands","nld",570563109,0.01570708292153448
+2014,"eu","Europe","eupol","Poland","pol",1218969874,0.03355713081998513
+2014,"eu","Europe","euswe","Sweden","swe",227820283,0.006271684971992208
+2014,"na","North America","nacan","Canada","can",1011197534,0.02783734746613136
+2014,"na","North America","namex","Mexico","mex",286533699,0.007888011858837165
+2014,"na","North America","nausa","United States","usa",4428030994,0.12189966176359072
+2013,"as","Asia","asare","United Arab Emirates","are",194195918,0.005660127628032045
+2013,"as","Asia","aschn","China","chn",1600326454,0.046643884533947584
+2013,"as","Asia","ashkg","Hong Kong","hkg",353239757,0.01029569585450826
+2013,"as","Asia","asjpn","Japan","jpn",1230270418,0.03585805332361482
+2013,"as","Asia","askor","South Korea","kor",1017375494,0.02965291547308502
+2013,"as","Asia","assgp","Singapore","sgp",914646149,0.026658716574197064
+2013,"as","Asia","astha","Thailand","tha",472033268,0.013758108661980498
+2013,"as","Asia","asxxb","Chinese Taipei",,371253618,0.010820736511303265
+2013,"eu","Europe","eubel","Belgium","bel",944545598,0.02753018029542644
+2013,"eu","Europe","euche","Switzerland","che",651934530,0.019001597370965777
+2013,"eu","Europe","eucze","Czechia","cze",187999280,0.0054795174365000416
+2013,"eu","Europe","eudeu","Germany","deu",3048808979,0.08886205288120459
+2013,"eu","Europe","euesp","Spain","esp",690712410,0.020131836112361523
+2013,"eu","Europe","eufra","France","fra",7321744384,0.21340308334012903
+2013,"eu","Europe","eugbr","United Kingdom","gbr",1985316706,0.05786499558669494
+2013,"eu","Europe","euirl","Ireland","irl",595099404,0.017345053452698236
+2013,"eu","Europe","euita","Italy","ita",1490007700,0.04342848107008347
+2013,"eu","Europe","eunld","Netherlands","nld",554725524,0.016168296927677715
+2013,"eu","Europe","eupol","Poland","pol",1223785195,0.0356690318948727
+2013,"eu","Europe","euswe","Sweden","swe",202215573,0.005893872349858717
+2013,"na","North America","nacan","Canada","can",949293579,0.027668567233278922
+2013,"na","North America","namex","Mexico","mex",303978539,0.008859904701615387
+2013,"na","North America","nausa","United States","usa",4188843413,0.12209004481454314
+2012,"as","Asia","asare","United Arab Emirates","are",318451979,0.010158356906428398
+2012,"as","Asia","aschn","China","chn",1576200100,0.05027949024536642
+2012,"as","Asia","ashkg","Hong Kong","hkg",90611512,0.002890432904884286
+2012,"as","Asia","asjpn","Japan","jpn",1359741670,0.04337464388752624
+2012,"as","Asia","askor","South Korea","kor",803569917,0.025633221190172112
+2012,"as","Asia","assgp","Singapore","sgp",793300920,0.02530564860945016
+2012,"as","Asia","astha","Thailand","tha",424680999,0.013546975505592827
+2012,"as","Asia","asxxb","Chinese Taipei",,348790270,0.0111261235030652
+2012,"eu","Europe","eubel","Belgium","bel",898550557,0.028663025694294818
+2012,"eu","Europe","euche","Switzerland","che",590753727,0.0188445593006309
+2012,"eu","Europe","eucze","Czechia","cze",155797432,0.004969810281383142
+2012,"eu","Europe","eudeu","Germany","deu",2932749694,0.09355230952692767
+2012,"eu","Europe","euesp","Spain","esp",602686372,0.01922520088787539
+2012,"eu","Europe","eufra","France","fra",6703289474,0.21382943556459005
+2012,"eu","Europe","eugbr","United Kingdom","gbr",1760357795,0.056153969652747285
+2012,"eu","Europe","euirl","Ireland","irl",525102096,0.01675032612525114
+2012,"eu","Europe","euita","Italy","ita",1347619819,0.04298796678408595
+2012,"eu","Europe","eunld","Netherlands","nld",462395107,0.014750024614204542
+2012,"eu","Europe","eupol","Poland","pol",1109223690,0.03538332582346895
+2012,"eu","Europe","euswe","Sweden","swe",181443547,0.005787900312575277
+2012,"na","North America","nacan","Canada","can",899019984,0.028678000030527517
+2012,"na","North America","namex","Mexico","mex",234118387,0.007468184499815359
+2012,"na","North America","nausa","United States","usa",3817663567,0.12178033618768788
+2011,"as","Asia","asare","United Arab Emirates","are",98909515,0.0031781866326037783
+2011,"as","Asia","aschn","China","chn",1450891969,0.04662044355619351
+2011,"as","Asia","ashkg","Hong Kong","hkg",91024219,0.002924814221048388
+2011,"as","Asia","asjpn","Japan","jpn",1422214165,0.045698960791615895
+2011,"as","Asia","askor","South Korea","kor",671985525,0.021592416188252788
+2011,"as","Asia","assgp","Singapore","sgp",676732803,0.021744956977486806
+2011,"as","Asia","astha","Thailand","tha",427209653,0.013727213286647888
+2011,"as","Asia","asxxb","Chinese Taipei",,289120388,0.009290092589725242
+2011,"eu","Europe","eubel","Belgium","bel",1278583190,0.04108377240682958
+2011,"eu","Europe","euche","Switzerland","che",599699548,0.019269704103110078
+2011,"eu","Europe","eucze","Czechia","cze",210837953,0.006774700734000603
+2011,"eu","Europe","eudeu","Germany","deu",3095135275,0.09945370328734722
+2011,"eu","Europe","euesp","Spain","esp",652552095,0.020967976088110338
+2011,"eu","Europe","eufra","France","fra",7134451878,0.22924609012201225
+2011,"eu","Europe","eugbr","United Kingdom","gbr",1756354022,0.05643563083733938
+2011,"eu","Europe","euirl","Ireland","irl",437307683,0.014051685850906563
+2011,"eu","Europe","euita","Italy","ita",1321475284,0.04246199248803395
+2011,"eu","Europe","eunld","Netherlands","nld",417626323,0.013419279198589415
+2011,"eu","Europe","eupol","Poland","pol",1102450055,0.035424216041442524
+2011,"eu","Europe","euswe","Sweden","swe",200292320,0.006435845672048825
+2011,"na","North America","nacan","Canada","can",812842827,0.026118480180387756
+2011,"na","North America","namex","Mexico","mex",199221397,0.006401434491656848
+2011,"na","North America","nausa","United States","usa",3463419431,0.11128750695728701
+2010,"as","Asia","asare","United Arab Emirates","are",93071936,0.0034739464317374794
+2010,"as","Asia","aschn","China","chn",1200355370,0.04480373390350902
+2010,"as","Asia","ashkg","Hong Kong","hkg",83032343,0.00309921469435913
+2010,"as","Asia","asjpn","Japan","jpn",1257520839,0.04693745740369655
+2010,"as","Asia","askor","South Korea","kor",683693601,0.025519131197568493
+2010,"as","Asia","assgp","Singapore","sgp",466093237,0.017397112460764988
+2010,"as","Asia","astha","Thailand","tha",349870314,0.013059046379900935
+2010,"as","Asia","asxxb","Chinese Taipei",,227072767,0.008475579885481335
+2010,"eu","Europe","eubel","Belgium","bel",901140992,0.033635440157286214
+2010,"eu","Europe","euche","Switzerland","che",535368248,0.01998282935476002
+2010,"eu","Europe","eucze","Czechia","cze",124493336,0.004646762482433965
+2010,"eu","Europe","eudeu","Germany","deu",2775499578,0.10359660784623606
+2010,"eu","Europe","euesp","Spain","esp",608943906,0.022729069580942028
+2010,"eu","Europe","eufra","France","fra",6035360329,0.2252721860129727
+2010,"eu","Europe","eugbr","United Kingdom","gbr",1521226006,0.05678035595402203
+2010,"eu","Europe","euirl","Ireland","irl",400114708,0.014934438047386095
+2010,"eu","Europe","euita","Italy","ita",1161413827,0.04335022557258528
+2010,"eu","Europe","eunld","Netherlands","nld",372327403,0.01389726601464412
+2010,"eu","Europe","eupol","Poland","pol",1056616313,0.03943861735359155
+2010,"eu","Europe","euswe","Sweden","swe",173378428,0.0064714176708525065
+2010,"na","North America","nacan","Canada","can",717522952,0.026781824961609725
+2010,"na","North America","namex","Mexico","mex",171234663,0.006391400803337967
+2010,"na","North America","nausa","United States","usa",3201026009,0.11947954839861089
+2009,"as","Asia","asare","United Arab Emirates","are",66131587,0.0027957600740061914
+2009,"as","Asia","aschn","China","chn",938072388,0.039657680208068265
+2009,"as","Asia","ashkg","Hong Kong","hkg",71240105,0.003011726321145277
+2009,"as","Asia","asjpn","Japan","jpn",1025877065,0.04336968564153245
+2009,"as","Asia","askor","South Korea","kor",373720852,0.01579931594330523
+2009,"as","Asia","assgp","Singapore","sgp",325767447,0.013772051496866814
+2009,"as","Asia","astha","Thailand","tha",268541497,0.011352783587765002
+2009,"as","Asia","asxxb","Chinese Taipei",,175570620,0.007422373359413148
+2009,"eu","Europe","eubel","Belgium","bel",685059394,0.028961375175649066
+2009,"eu","Europe","euche","Switzerland","che",498399812,0.02107020802754653
+2009,"eu","Europe","eucze","Czechia","cze",104540899,0.0044195411721317645
+2009,"eu","Europe","eudeu","Germany","deu",2643436349,0.11175315969221933
+2009,"eu","Europe","euesp","Spain","esp",513822298,0.021722204638496143
+2009,"eu","Europe","eufra","France","fra",5536685738,0.2340673440759845
+2009,"eu","Europe","eugbr","United Kingdom","gbr",1384630223,0.058536231630517035
+2009,"eu","Europe","euirl","Ireland","irl",376484125,0.015916135283010162
+2009,"eu","Europe","euita","Italy","ita",1066861211,0.045102319686047984
+2009,"eu","Europe","eunld","Netherlands","nld",411701420,0.017404971582606267
+2009,"eu","Europe","eupol","Poland","pol",905754513,0.038291418959843226
+2009,"eu","Europe","euswe","Sweden","swe",163879914,0.006928140413336342
+2009,"na","North America","nacan","Canada","can",619324280,0.02618237628089329
+2009,"na","North America","namex","Mexico","mex",137843133,0.0058274169001467525
+2009,"na","North America","nausa","United States","usa",2837901150,0.11997429804831775
+2019,"af","Africa",,"Other Africa",,608031943,
+2019,"an","Antarctica",,"Other Antarctica",,63296,
+2019,"as","Asia",,"Other Asia",,1174948270,
+2019,"eu","Europe",,"Other Europe",,1974758094,
+2019,"na","North America",,"Other North America",,63968062,
+2019,"oc","Oceania",,"Other Oceania",,578175355,
+2019,"sa","South America",,"Other South America",,410125619,
+2018,"af","Africa",,"Other Africa",,654769512,
+2018,"an","Antarctica",,"Other Antarctica",,208361,
+2018,"as","Asia",,"Other Asia",,1215941678,
+2018,"eu","Europe",,"Other Europe",,1816940808,
+2018,"na","North America",,"Other North America",,64440826,
+2018,"oc","Oceania",,"Other Oceania",,537315190,
+2018,"sa","South America",,"Other South America",,404751093,
+2017,"af","Africa",,"Other Africa",,586694957,
+2017,"an","Antarctica",,"Other Antarctica",,181534,
+2017,"as","Asia",,"Other Asia",,1140785918,
+2017,"eu","Europe",,"Other Europe",,1595400911,
+2017,"na","North America",,"Other North America",,98603991,
+2017,"oc","Oceania",,"Other Oceania",,461990170,
+2017,"sa","South America",,"Other South America",,384115216,
+2016,"af","Africa",,"Other Africa",,546510643,
+2016,"an","Antarctica",,"Other Antarctica",,35669,
+2016,"as","Asia",,"Other Asia",,1100576001,
+2016,"eu","Europe",,"Other Europe",,1374803502,
+2016,"na","North America",,"Other North America",,118236949,
+2016,"oc","Oceania",,"Other Oceania",,382728922,
+2016,"sa","South America",,"Other South America",,349924294,
+2015,"af","Africa",,"Other Africa",,585703693,
+2015,"an","Antarctica",,"Other Antarctica",,31009,
+2015,"as","Asia",,"Other Asia",,1019758287,
+2015,"eu","Europe",,"Other Europe",,1253429584,
+2015,"na","North America",,"Other North America",,112866250,
+2015,"oc","Oceania",,"Other Oceania",,308420703,
+2015,"sa","South America",,"Other South America",,356976816,
+2014,"af","Africa",,"Other Africa",,564842665,
+2014,"an","Antarctica",,"Other Antarctica",,32199,
+2014,"as","Asia",,"Other Asia",,1052503421,
+2014,"eu","Europe",,"Other Europe",,1409389165,
+2014,"na","North America",,"Other North America",,139740120,
+2014,"oc","Oceania",,"Other Oceania",,274224415,
+2014,"sa","South America",,"Other South America",,403023712,
+2013,"af","Africa",,"Other Africa",,610673771,
+2013,"as","Asia",,"Other Asia",,1046856545,
+2013,"eu","Europe",,"Other Europe",,1346866200,
+2013,"na","North America",,"Other North America",,107657022,
+2013,"oc","Oceania",,"Other Oceania",,264340601,
+2013,"sa","South America",,"Other South America",,440713185,
+2012,"af","Africa",,"Other Africa",,549548916,
+2012,"as","Asia",,"Other Asia",,857994252,
+2012,"eu","Europe",,"Other Europe",,1187690469,
+2012,"na","North America",,"Other North America",,113324969,
+2012,"oc","Oceania",,"Other Oceania",,238675556,
+2012,"sa","South America",,"Other South America",,465415723,
+2011,"af","Africa",,"Other Africa",,498440627,
+2011,"as","Asia",,"Other Asia",,831247687,
+2011,"eu","Europe",,"Other Europe",,1191816229,
+2011,"na","North America",,"Other North America",,109407612,
+2011,"oc","Oceania",,"Other Oceania",,238147692,
+2011,"sa","South America",,"Other South America",,441970394,
+2010,"af","Africa",,"Other Africa",,347362734,
+2010,"as","Asia",,"Other Asia",,730724242,
+2010,"eu","Europe",,"Other Europe",,965747477,
+2010,"na","North America",,"Other North America",,75637690,
+2010,"oc","Oceania",,"Other Oceania",,192778456,
+2010,"sa","South America",,"Other South America",,362785989,
+2009,"af","Africa",,"Other Africa",,350755006,
+2009,"an","Antarctica",,"Other Antarctica",,6888.000000000001,
+2009,"as","Asia",,"Other Asia",,677089215,
+2009,"eu","Europe",,"Other Europe",,955452110,
+2009,"na","North America",,"Other North America",,71580503,
+2009,"oc","Oceania",,"Other Oceania",,149872624,
+2009,"sa","South America",,"Other South America",,318240219,
