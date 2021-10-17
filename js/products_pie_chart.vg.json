@@ -3,7 +3,7 @@
   "title": "Distribution of Beauty Product Type",
   "description": "Pie chart",
   "width":"container",
-  "height":200,
+  "height":300,
   "background": "white",
   "data": { "url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/data/Product%20Share.csv"},
   "mark": "arc",
