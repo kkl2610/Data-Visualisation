@@ -43,7 +43,7 @@
       "order":{"aggregate":"sum", "field":"Trade Value", "sort": "descending"},
       "tooltip": [
         {"field": "Continent", "type": "nominal"},
-        {"aggregate": "sum", "field": "Trade Value", "type": "quantitative", "title": "Trade Value"},
+        {"aggregate": "sum", "field": "Trade Value", "type": "quantitative", "title": "Trade Value", "format": ","},
         {"field": "Year", "type": "temporal", "format": "%Y"}
       ]
     }

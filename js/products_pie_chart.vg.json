@@ -13,7 +13,7 @@
   },
     "tooltip": [
       {"field": "HS6", "type" : "nominal", "title": "Product Type" }, 
-      {"field": "Trade Value", "type": "quantitative"}]
+      {"field": "Trade Value", "type": "quantitative", "format": ","}]
   },
   "config": {
     "view": {
