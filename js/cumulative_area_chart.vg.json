@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Total Number of Boulder Athletes",
+  "title": "Total Exports",
   "background": "white",
   "data": {"url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/data/Exports.csv"},
   "vconcat":[{
@@ -18,7 +18,7 @@
     "encoding": {
       "x": {
         "timeUnit": "year", "field": "Year",
-        "axis": {"format": "%Y", "title": "Year", "tickCount": "year"},
+        "axis": {"format": "%Y", "title": null, "tickCount": "year"},
         "scale": {"domain":{"param": "brush"}}
       },
       "y": {
@@ -29,7 +29,8 @@
           "param": "click",
           "field":"Continent",
           "type":"nominal",
-          "scale": { "domain": [ "North America", "South America", "Europe", "Oceania", "Asia", "Africa" ], "range": ["#BDD9BF", "#929084", "#A997DF",  "#E5323B", "#FFC857", "#2E4052"] }
+          "scale": { "domain": [ "North America", "South America", "Europe", "Oceania", "Asia", "Africa" ], "range": ["#BDD9BF", "#929084", "#A997DF",  "#E5323B", "#FFC857", "#2E4052"] },
+          "title": null
         },
         "value": "grey"
       },
@@ -58,10 +59,10 @@
     "encoding": {
       "x": {
         "timeUnit": "year", "field": "Year",
-        "axis": {"format": "%Y", "title": "Year", "tickCount": "year"}
+        "axis": {"format": "%Y", "title": null, "tickCount": "year"}
       },
       "y": {
-        "aggregate": "sum", "field": "Year", "sort":"ascending", "axis": {"title": "Trade Value", "format": ".2s"}
+        "aggregate": "sum", "field": "Year", "sort":"ascending", "axis": {"title": "Trade Value", "format": ".1s"}
       },
       "color": {
         "field": "Continent",
@@ -77,12 +78,12 @@
       "stroke": null
     },
     "axis": {
-      "labelFont": "Oxygen",
-      "titleFont": "Oxygen"
+      "labelFont": "Epilogue",
+      "titleFont": "Epilogue"
     },
     "legend": {
-      "labelFont": "Oxygen",
-      "titleFont": "Oxygen",
+      "labelFont": "Epilogue",
+      "titleFont": "Epilogue",
       "orient": "top",
       "titleAlign": "left",
       "direction": "horizontal",
@@ -90,11 +91,11 @@
       "offset": 20
     },
     "header": {
-      "labelFont": "Oxygen",
-      "titleFont": "Oxygen"
+      "labelFont": "Epilogue",
+      "titleFont": "Epilogue"
     },
     "title": {
-      "font": "Oxygen",
+      "font": "Epilogue",
       "fontSize": 16,
       "fontWeight": 600,
       "align": "center",

@@ -2,34 +2,38 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Distribution of Beauty Product Type",
   "description": "Pie chart",
+  "padding": {"top": 24, "right": 24, "bottom": 24, "left": 50},
   "width":"container",
-  "height":300,
+  "height": 350,
   "background": "white",
   "data": { "url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/data/Product%20Share.csv"},
-  "mark": "arc",
+  "layer": [
+    {"mark": {"type": "arc", "outerRadius": 150, "stroke": "#fff"},
   "encoding": {
     "theta": {"field": "Trade Value", "type": "quantitative"},
-    "color": {"field": "HS6", "type": "nominal", "scale":{"domain":["Beauty, makeup and suntan preparations", "Eye make-up preparations", "Lip make-up preparations", "Manicure or pedicure preparations", "Powders, for skin care and make-up"], "range":["#5ab4ac", "#8c510a", "#d8b365", "#f6e8c3", "#f5f5f5"]}, "title":"Product"
+    "color": {"field": "HS6", "type": "nominal", "scale":{"domain":["Beauty, makeup and suntan preparations", "Eye make-up preparations", "Lip make-up preparations", "Manicure or pedicure preparations", "Powders, for skin care and make-up"], "range":["#5ab4ac", "#8c510a", "#d8b365", "#f6e8c3", "#f5f5f5"]}, "title":null
   },
     "tooltip": [
       {"field": "HS6", "type" : "nominal", "title": "Product Type" }, 
-      {"field": "Trade Value", "type": "quantitative", "format": ","}]
-  },
+      {"field": "Trade Value", "type": "quantitative", "format": ","}]}
+  
+  }
+],
   "config": {
     "view": {
       "stroke": null
     },
     "axis": {
-      "labelFont": "Oxygen",
-      "titleFont": "Oxygen"
+      "labelFont": "Epilogue",
+      "titleFont": "Epilogue"
     },
     "legend": {
-      "labelFont": "Oxygen",
-      "titleFont": "Oxygen"
+      "labelFont": "Epilogue",
+      "titleFont": "Epilogue"
     },
     "header": {
-      "labelFont": "Oxygen",
-      "titleFont": "Oxygen"
+      "labelFont": "Epilogue",
+      "titleFont": "Epilogue"
     },
     "title": {
       "font": "Oxygen",

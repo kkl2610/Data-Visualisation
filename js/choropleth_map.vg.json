@@ -56,6 +56,7 @@
             "data": {
                 "url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/data/Trade_long.csv"
             },
+            
             "transform": [
                 {
                     "lookup": "Country",
@@ -72,10 +73,11 @@
                     "as": "geo"
                 },
                 {
-                    "filter": "datum.Type == Type_selection"
+                    "filter": "datum.Type == 'Balance2020' || datum.Type == Type_selection"
                 }
                 
             ],
+            
             "mark": {
                 "type": "geoshape",
                 "stroke": "#fff",
@@ -106,9 +108,10 @@
                             "#67a9cf",
                             "#2166ac"
                         ]
+                        
                     },
                     "legend": {
-                        "format": ".1s", "title": "Amount (USD)" 
+                        "format": "$,", "title": "Amount (USD)" 
                     }
                 },
                 "tooltip": [
@@ -121,7 +124,7 @@
                         "field": "Amount",
                         "type": "quantitative",
                         "title": "Amount (USD)",
-                        "format": ","
+                        "format": "$,"
                     }
                     
                 ]

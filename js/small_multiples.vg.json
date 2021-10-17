@@ -68,7 +68,7 @@
                                 "#2166ac"
                             ]
                         },
-                        "legend": { "format": ".1s", "title": "Amount (USD)" }
+                        "legend": { "format": "$~", "title": "Amount (USD)" }
                     },
                     "tooltip": [
                         { "field": "Countries", "type": "nominal", "title": "Country" },
@@ -76,7 +76,7 @@
                             "field": { "repeat": "repeat" },
                             "type": "quantitative",
                             "title": "Amount (USD)",
-                            "format": ","
+                            "format": "$,"
                         }
                     ]
                 }
