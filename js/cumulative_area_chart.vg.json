@@ -1,0 +1,104 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Total Number of Boulder Athletes",
+  "background": "white",
+  "data": {"url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/data/Exports.csv"},
+  "vconcat":[{
+    "width": 320,
+    "height": 250,
+    "mark": "area",
+    "params": [{
+      "name": "click",
+      "select": {
+        "type": "point",
+        "fields": ["Continent"]
+      },
+      "bind": "legend"
+    }],
+    "encoding": {
+      "x": {
+        "timeUnit": "year", "field": "Year",
+        "axis": {"format": "%Y", "title": "Year", "tickCount": "year"},
+        "scale": {"domain":{"param": "brush"}}
+      },
+      "y": {
+        "aggregate": "sum", "field": "Trade Value", "sort":"ascending", "axis": {"title": "Sum of Trade Value"}
+      },
+      "color": {
+        "condition": {
+          "param": "click",
+          "field":"Continent",
+          "type":"nominal",
+          "scale": { "domain": [ "North America", "South America", "Europe", "Oceania", "Asia", "Africa" ], "range": ["#BDD9BF", "#929084", "#A997DF",  "#E5323B", "#FFC857", "#2E4052"] }
+        },
+        "value": "grey"
+      },
+      "opacity": {
+        "condition": {
+          "param": "click",
+          "value": 1
+        },
+        "value": 0.1
+      },
+      "order":{"aggregate":"sum", "field":"Trade Value", "sort": "descending"},
+      "tooltip": [
+        {"field": "Continent", "type": "nominal"},
+        {"aggregate": "sum", "field": "Trade Value", "type": "quantitative", "title": "Trade Value"},
+        {"field": "Year", "type": "temporal", "format": "%Y"}
+      ]
+    }
+  },{
+    "width": 320,
+    "height": 70,
+    "mark": "area",
+    "params": [{
+      "name": "brush",
+      "select": {"type": "interval", "encodings": ["x"]}
+    }],
+    "encoding": {
+      "x": {
+        "timeUnit": "year", "field": "Year",
+        "axis": {"format": "%Y", "title": "Year", "tickCount": "year"}
+      },
+      "y": {
+        "aggregate": "sum", "field": "Year", "sort":"ascending", "axis": {"title": "Trade Value"}
+      },
+      "color": {
+        "field": "Continent",
+        "type": "nominal",
+        "scale": { "domain": [ "North America", "South America", "Europe", "Oceania", "Asia", "Africa" ], "range": ["#BDD9BF", "#929084", "#A997DF",  "#E5323B", "#FFC857", "#2E4052"] }
+      },
+      "order":{"aggregate":"sum", "field":"Trade Value", "sort": "descending"}
+    }
+  }],
+  
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Oxygen",
+      "titleFont": "Oxygen"
+    },
+    "legend": {
+      "labelFont": "Oxygen",
+      "titleFont": "Oxygen",
+      "orient": "top",
+      "titleAlign": "left",
+      "direction": "horizontal",
+      "padding": -5,
+      "offset": 20
+    },
+    "header": {
+      "labelFont": "Oxygen",
+      "titleFont": "Oxygen"
+    },
+    "title": {
+      "font": "Oxygen",
+      "fontSize": 16,
+      "fontWeight": 600,
+      "align": "center",
+      "dx":80
+    }
+  }
+}

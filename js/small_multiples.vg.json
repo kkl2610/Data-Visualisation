@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Trade Balance (2016-2020)",
+    "title": "Trade Balance (2017-2020)",
     "repeat": ["Balance2017", "Balance2018", "Balance2019", "Balance2020"],
     "columns": 2,
     "spec": {
