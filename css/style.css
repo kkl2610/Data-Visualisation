@@ -25,3 +25,11 @@
 .negative {
     color: "#b2182b";
 }
+
+.header-img {
+    width: 100%;
+  height: 300px;
+  background: url("img/header_image.jpg");
+  background-size: cover;
+  opacity: 100%;
+}
