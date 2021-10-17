@@ -8,7 +8,7 @@
             "type": "equalEarth"
         },
         "width": 400,
-        "height": 300,
+        "height": 200,
         "layer": [{
                 "data": {
                     "url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/js/world.topo.json",
