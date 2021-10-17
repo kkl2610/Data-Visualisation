@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Trade of Beauty Products 2020 (thousand USD)",
+    "title": "Trade of Beauty Products 2020",
     "width": 800,
     "height": 600,
     "params": [
@@ -92,11 +92,11 @@
                     "scale": {
                         "type": "threshold",
                         "domain": [
-                            -1000000,
-                            -500000,
+                            -1000000000,
+                            -500000000,
                             0,
-                            500000,
-                            1000000
+                            500000000,
+                            1000000000
                         ],
                         "range": [
                             "#b2182b",
