@@ -108,7 +108,7 @@
                         ]
                     },
                     "legend": {
-                        "format": ".1s"
+                        "format": ".2s"
                     }
                 },
                 "tooltip": [
