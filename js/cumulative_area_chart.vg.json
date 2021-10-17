@@ -22,7 +22,7 @@
         "scale": {"domain":{"param": "brush"}}
       },
       "y": {
-        "aggregate": "sum", "field": "Trade Value", "sort":"ascending", "axis": {"title": "Sum of Trade Value"}
+        "aggregate": "sum", "field": "Trade Value", "sort":"ascending", "axis": {"title": "Sum of Trade Value", "format": ".1s"}
       },
       "color": {
         "condition": {
@@ -43,7 +43,7 @@
       "order":{"aggregate":"sum", "field":"Trade Value", "sort": "descending"},
       "tooltip": [
         {"field": "Continent", "type": "nominal"},
-        {"aggregate": "sum", "field": "Trade Value", "type": "quantitative", "title": "Trade Value", "format": ","},
+        {"aggregate": "sum", "field": "Trade Value", "type": "quantitative", "title": "Trade Value", "format": ".1s"},
         {"field": "Year", "type": "temporal", "format": "%Y"}
       ]
     }
