@@ -61,7 +61,7 @@
         "axis": {"format": "%Y", "title": "Year", "tickCount": "year"}
       },
       "y": {
-        "aggregate": "sum", "field": "Year", "sort":"ascending", "axis": {"title": "Trade Value"}
+        "aggregate": "sum", "field": "Year", "sort":"ascending", "axis": {"title": "Trade Value", "format": ".2s"}
       },
       "color": {
         "field": "Continent",
