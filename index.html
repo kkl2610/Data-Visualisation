@@ -9,12 +9,14 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 
     <!-- Import pure.css -->
-    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+        integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Google font -->
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
     <!-- CSS file -->
     <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
 
@@ -22,45 +24,227 @@
 </head>
 
 <body>
-    <div class="introduction">
-        <h1>The Worldwide Trading of Beauty Products</h1>
-        <p>
-            Trade balance refers to the difference between the value of a country's exports and the value of their imports. 
-            <ul>
-            <li>A <span class="positive">positive trade balance</span> means the country exports more beauty products than it imports. </li>
-            <li>A <span class = "negative">negative trade balance</span> indicates the country imports more beauty products that it exports.</li>
-            </ul>
-        </p>
-    </div>
-    
+
 
     <div class="page">
-
-        <h2>2020 Trading</h2>
-   
-        <!-- pure grid group -->
-        <div class="pure-g">
-            <div class="pure-u-1-1">
-                <div id="vis1" class="vis-container"></div>
+        <div class="section">
+            <div class="pure-g">
+                <div class="pure-u-1-1">
+                    <h1>The Worldwide Trading of Beauty Products</h1>
+                </div>
             </div>
         </div>
-        <!-- end pure grid group -->
-   
-        <br>
 
-            <hr class="hr3">
 
-            <h2>Trade Balance Over the Years</h2>
+        <div class="section">
             <!-- pure grid group -->
             <div class="pure-g">
+                <div class="pure-u-1-1">
+                    <h2>Trade Balance</h2>
+                </div>
+                <div class="pure-u-1-4">
+                    <p>
+                    Top Net Exporter (2020)
+                    <br>
+                    France
+                    <br>
+                    $7.2B
+                    </p>
+                </div>
+                <div class="pure-u-1-4">
+                    <p>
+                        Top Net Importer (2020)
+                        <br>
+                        China
+                        <br>
+                        -$15.2B
+                    </p>
+                </div>
+                <div class="pure-u-1-1">
+                    <p>
+                        Trade balance refers to the difference between the value of a country's exports and the value of
+                        their imports.
+                    <ul>
+                        <li>A <text style="color:#2166ac; font-weight:bold">positive trade balance</text> means the
+                            country exports more beauty products than it imports (net exporters). </li>
+                        <li>A <text style="color:#b2182b; font-weight:bold">negative trade balance</text> means the
+                            country imports more beauty products that it exports (net importers).</li>
+                    </ul>
+                    </p>
+                    <p>
+                        In 2020, the top net exporters of Beauty Products were France ($7.2B), Republic of Korea ($5.2B)
+                        and Japan ($3.8B).
+                        <br>
+                        In 2020, the top net importers of Beauty Products were China (-$15.2B), Hong Kong ($-3.1B) and
+                        Russia ($-7.6B).
+                    </p>
+                </div>
+                
+                <div class="pure-u-1-1">
+                    <div id="vis1" class="vis-container"></div>
+                </div>
+            </div>
+            <!-- end pure grid group -->
+        </div>
+        
+        <hr class="hr3">
+
+        <div class="section">
+            <!-- pure grid group -->
+            <div class="pure-g">
+                <div class="pure-u-1-1">
+                    <h2>Trade Balance Over the Years</h2>
+                </div>
+                <div class="pure-u-1-4">
+                    <p>
+                    Top Net Exporter (2020)
+                    <br>
+                    France
+                    <br>
+                    $7.2B
+                    </p>
+                </div>
+                <div class="pure-u-1-4">
+                    <p>
+                        Top Net Importer (2020)
+                        <br>
+                        China
+                        <br>
+                        -$15.2B
+                    </p>
+                </div>
+                <div class="pure-u-1-1">
+                    <p>
+                        Trade balance refers to the difference between the value of a country's exports and the value of
+                        their imports.
+                    <ul>
+                        <li>A <text style="color:#2166ac; font-weight:bold">positive trade balance</text> means the
+                            country exports more beauty products than it imports (net exporters). </li>
+                        <li>A <text style="color:#b2182b; font-weight:bold">negative trade balance</text> means the
+                            country imports more beauty products that it exports (net importers).</li>
+                    </ul>
+                    </p>
+                    <p>
+                        In 2020, the top net exporters of Beauty Products were France ($7.2B), Republic of Korea ($5.2B)
+                        and Japan ($3.8B).
+                        <br>
+                        In 2020, the top net importers of Beauty Products were China (-$15.2B), Hong Kong ($-3.1B) and
+                        Russia ($-7.6B).
+                    </p>
+                </div>
+                
                 <div class="pure-u-1-1">
                     <div id="vis2" class="vis-container"></div>
                 </div>
             </div>
             <!-- end pure grid group -->
+        </div>
 
-            <hr class="hr3">
+        <hr class="hr3">
 
+        <div class="section">
+            <!-- pure grid group -->
+            <div class="pure-g">
+                <div class="pure-u-1-1">
+                    <h2>Distribution of Beauty Products</h2>
+                </div>
+                <div class="pure-u-1-4">
+                    <p>
+                    Top Net Exporter (2020)
+                    <br>
+                    France
+                    <br>
+                    $7.2B
+                    </p>
+                </div>
+                <div class="pure-u-1-4">
+                    <p>
+                        Top Net Importer (2020)
+                        <br>
+                        China
+                        <br>
+                        -$15.2B
+                    </p>
+                </div>
+                <div class="pure-u-1-1">
+                    <p>
+                        Trade balance refers to the difference between the value of a country's exports and the value of
+                        their imports.
+                    <ul>
+                        <li>A <text style="color:#2166ac; font-weight:bold">positive trade balance</text> means the
+                            country exports more beauty products than it imports (net exporters). </li>
+                        <li>A <text style="color:#b2182b; font-weight:bold">negative trade balance</text> means the
+                            country imports more beauty products that it exports (net importers).</li>
+                    </ul>
+                    </p>
+                    <p>
+                        In 2020, the top net exporters of Beauty Products were France ($7.2B), Republic of Korea ($5.2B)
+                        and Japan ($3.8B).
+                        <br>
+                        In 2020, the top net importers of Beauty Products were China (-$15.2B), Hong Kong ($-3.1B) and
+                        Russia ($-7.6B).
+                    </p>
+                </div>
+                
+                <div class="pure-u-1-1">
+                    <div id="vis3" class="vis-container"></div>
+                </div>
+            </div>
+            <!-- end pure grid group -->
+        </div>
+
+        <hr class="hr3">
+
+        <div class="section">
+            <!-- pure grid group -->
+            <div class="pure-g">
+                <div class="pure-u-1-1">
+                    <h2>Growth</h2>
+                </div>
+                <div class="pure-u-1-4">
+                    <p>
+                    Top Net Exporter (2020)
+                    <br>
+                    France
+                    <br>
+                    $7.2B
+                    </p>
+                </div>
+                <div class="pure-u-1-4">
+                    <p>
+                        Top Net Importer (2020)
+                        <br>
+                        China
+                        <br>
+                        -$15.2B
+                    </p>
+                </div>
+                <div class="pure-u-1-1">
+                    <p>
+                        Trade balance refers to the difference between the value of a country's exports and the value of
+                        their imports.
+                    <ul>
+                        <li>A <text style="color:#2166ac; font-weight:bold">positive trade balance</text> means the
+                            country exports more beauty products than it imports (net exporters). </li>
+                        <li>A <text style="color:#b2182b; font-weight:bold">negative trade balance</text> means the
+                            country imports more beauty products that it exports (net importers).</li>
+                    </ul>
+                    </p>
+                    <p>
+                        In 2020, the top net exporters of Beauty Products were France ($7.2B), Republic of Korea ($5.2B)
+                        and Japan ($3.8B).
+                        <br>
+                        In 2020, the top net importers of Beauty Products were China (-$15.2B), Hong Kong ($-3.1B) and
+                        Russia ($-7.6B).
+                    </p>
+                </div>
+                
+                <div class="pure-u-1-1">
+                    <div id="vis4" class="vis-container"></div>
+                </div>
+            </div>
+            <!-- end pure grid group -->
+        </div>
     </div>
 
 
@@ -70,6 +254,12 @@
 
         var specVis2 = "js/small_multiples.vg.json";
         vegaEmbed('#vis2', specVis2);
+
+        var specVis3 = "js/products_pie_chart.vg.json";
+        vegaEmbed('#vis3', specVis3);
+
+        var specVis4 = "js/cumulative_area_chart.vg.json";
+        vegaEmbed('#vis3', specVis4);
 
         print(brush)
     </script>
