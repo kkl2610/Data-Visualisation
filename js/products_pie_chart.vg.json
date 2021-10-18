@@ -1,6 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Distribution of Beauty Product Type",
   "description": "Pie chart",
   "padding": {"top": 15, "right": 10, "bottom": 0, "left": 100},
   "width":"container",
