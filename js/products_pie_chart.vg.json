@@ -38,7 +38,7 @@
       "titleFont": "Epilogue",
       "orient": "bottom",
       "direction": "horizontal",
-      "columns": 3,
+      "columns": 2,
       "labelLimit": 500
     },
     "header": {
