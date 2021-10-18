@@ -9,7 +9,7 @@
   "data": { "url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/data/Product%20Share.csv"},
   "encoding": {
     "theta": {"field": "Trade Value", "type": "quantitative", "stack": true},
-    "color": {"field": "HS6", "type": "nominal", "scale":{"domain":["Beauty, makeup and suntan preparations", "Eye make-up preparations", "Lip make-up preparations", "Manicure or pedicure preparations", "Powders, for skin care and make-up"], "range":["#5ab4ac", "#8c510a", "#d8b365", "#f6e8c3", "#f5f5f5"]}, "title":null
+    "color": {"field": "HS6", "type": "nominal", "scale":{"domain":["Beauty, makeup and suntan prep", "Eye make-up prep", "Lip make-up prep", "Manicure or pedicure prep", "Powders, for skin care and make-up"], "range":["#5ab4ac", "#8c510a", "#d8b365", "#f6e8c3", "#f5f5f5"]}, "title":null
   },
   
     "tooltip": [
