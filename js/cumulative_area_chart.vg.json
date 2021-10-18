@@ -4,7 +4,7 @@
   "background": "white",
   "data": {"url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/data/Exports.csv"},
   "vconcat":[{
-    "width": 395,
+    "width": 420,
     "height": 250,
     "mark": "area",
     "params": [{
@@ -22,7 +22,7 @@
         "scale": {"domain":{"param": "brush"}}
       },
       "y": {
-        "aggregate": "sum", "field": "Trade Value", "sort":"ascending", "axis": {"title": "Trade Value", "format": ".1s"}
+        "aggregate": "sum", "field": "Trade Value", "sort":"ascending", "axis": {"title": "Trade Value (USD)", "format": ","}
       },
       "color": {
         "condition": {
@@ -44,12 +44,12 @@
       "order":{"aggregate":"sum", "field":"Trade Value", "sort": "descending"},
       "tooltip": [
         {"field": "Continent", "type": "nominal"},
-        {"aggregate": "sum", "field": "Trade Value", "type": "quantitative", "title": "Trade Value", "format": ","},
+        {"aggregate": "sum", "field": "Trade Value", "type": "quantitative", "title": "Trade Value (USD)", "format": ","},
         {"field": "Year", "type": "temporal", "format": "%Y"}
       ]
     }
   },{
-    "width": 395,
+    "width": 425,
     "height": 70,
     "mark": "area",
     "params": [{
@@ -62,7 +62,7 @@
         "axis": {"format": "%Y", "title": null, "tickCount": "year"}
       },
       "y": {
-        "aggregate": "sum", "field": "Year", "sort":"ascending", "axis": {"title": "Trade Value", "format": ".1s"}
+        "aggregate": "sum", "field": "Trade Value", "sort":"ascending", "axis": {"title": "Trade Value", "format": ","}
       },
       "color": {
         "field": "Continent",
@@ -98,7 +98,7 @@
       "fontSize": 16,
       "fontWeight": 600,
       "align": "center",
-      "dx":180
+      "dx":170
     }
   }
 }
