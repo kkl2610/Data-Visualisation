@@ -4,7 +4,6 @@
 
 .page {
     width: 1024px;
-    background-color: white;
     margin: auto;
     padding: 50px;
     padding-top: 10px;
@@ -13,8 +12,8 @@
 
 .hr3 {
     border: 0;
-    height: 2px;
-    background-image: linear-gradient(to right, transparent, #DDD, transparent);
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, #FC94AF, transparent);
     padding-top: 5px;
 }
 
@@ -33,3 +32,17 @@
   background-size: cover;
   opacity: 100%;
 }
+
+body {
+    font-family: Epilogue;
+    background-color: #fdf1f4;
+}
+
+p {
+    padding: 10px;
+}
+
+#vis1 {
+    padding-left: 10px;
+}
+
