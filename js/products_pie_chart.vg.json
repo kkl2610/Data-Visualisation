@@ -4,7 +4,7 @@
   "padding": {"top": 15, "right": 70, "bottom": 0, "left": 0},
   "width":"container",
   "height": 300,
-  "background": "white",
+  "background": "#fdf1f4",
   "data": { "url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/data/Product%20Share.csv"},
   "encoding": {
     "theta": {"field": "Trade Value", "type": "quantitative", "stack": true},

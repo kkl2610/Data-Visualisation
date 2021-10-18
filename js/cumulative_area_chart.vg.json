@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Total Exports",
-  "background": "white",
+  "background": "#fdf1f4",
   "data": {"url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/data/Exports.csv"},
   "vconcat":[{
     "width": 420,

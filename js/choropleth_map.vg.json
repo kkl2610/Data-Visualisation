@@ -3,6 +3,7 @@
     "title": "Trade of Beauty Products 2020",
     "width": 800,
     "height": 400,
+    "background": "#fdf1f4",
     "params": [
         {
             "name": "Type_selection",
