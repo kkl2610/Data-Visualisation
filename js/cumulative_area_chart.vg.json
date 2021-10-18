@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Total Exports",
-  "background": "#fdf1f4",
+  "background": "#fcf5f7",
   "data": {"url": "https://raw.githubusercontent.com/kkl2610/Data-Visualisation/master/data/Exports.csv"},
   "vconcat":[{
     "width": 420,
@@ -29,7 +29,7 @@
           "param": "click",
           "field":"Continent",
           "type":"nominal",
-          "scale": { "domain": [ "North America", "South America", "Europe", "Oceania", "Asia", "Africa" ], "range": ["#BDD9BF", "#929084", "#A997DF",  "#E5323B", "#FFC857", "#2E4052"] },
+          "scale": { "domain": [ "Africa", "Asia", "Europe", "Oceania", "South America", "North America" ], "range": ["#BDD9BF", "#929084", "#A997DF",  "#E5323B", "#FFC857", "#2E4052"] },
           "title": null
         },
         "value": "grey"
